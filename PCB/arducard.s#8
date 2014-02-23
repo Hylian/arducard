@@ -19190,6 +19190,11 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <wire x1="299.72" y1="149.86" x2="317.5" y2="149.86" width="0.1524" layer="91"/>
 <label x="317.5" y="149.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SCLK/PCINT1)PB1"/>
+<wire x1="172.72" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<label x="185.42" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -19209,6 +19214,11 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <wire x1="299.72" y1="144.78" x2="317.5" y2="144.78" width="0.1524" layer="91"/>
 <label x="317.5" y="144.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(PD0/MISO/PCINT3)PB3"/>
+<wire x1="172.72" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="185.42" y="114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -19225,6 +19235,11 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <pinref part="U1" gate="G$1" pin="DI"/>
 <wire x1="299.72" y1="154.94" x2="317.5" y2="154.94" width="0.1524" layer="91"/>
 <label x="317.5" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(PDI/MOSI/PCINT2)PB2"/>
+<wire x1="172.72" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<label x="185.42" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">

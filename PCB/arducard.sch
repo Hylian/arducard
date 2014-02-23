@@ -15813,6 +15813,34 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-8.89" y="6.35" size="0.8128" layer="25">&gt;Name</text>
 <text x="-8.89" y="5.08" size="0.8128" layer="27">&gt;Value</text>
 </package>
+<package name="DS3234">
+<wire x1="6.5" y1="3.75" x2="6.5" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="6.5" y1="3.75" x2="-6.5" y2="3.75" width="0.127" layer="51"/>
+<wire x1="6.5" y1="-3.75" x2="-6.5" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="3.75" x2="-6.5" y2="-3.75" width="0.254" layer="21"/>
+<circle x="-5.7" y="-1" radius="0.2" width="0.254" layer="21"/>
+<smd name="10" x="5.715" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="11" x="5.715" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="12" x="4.445" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="13" x="3.175" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="14" x="1.905" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="15" x="0.635" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="16" x="-0.635" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="17" x="-1.905" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="18" x="-3.175" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="19" x="-4.445" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="20" x="-5.715" y="4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="9" x="4.445" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="8" x="3.175" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="7" x="1.905" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="6" x="0.635" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="5" x="-0.635" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="4" x="-1.905" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="3" x="-3.175" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="2" x="-4.445" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<smd name="1" x="-5.715" y="-4.685" dx="0.53" dy="1.98" layer="1" rot="R180"/>
+<text x="-6.985" y="-1.905" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USDCARD">
@@ -15834,6 +15862,34 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pin name="SHIELD1" x="-7.62" y="-15.24" length="middle"/>
 <pin name="SHIELD2" x="-7.62" y="-17.78" length="middle"/>
 <pin name="VCC" x="-7.62" y="5.08" length="middle"/>
+</symbol>
+<symbol name="DS3234">
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-9.144" y="15.494" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9.398" y="-20.066" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="VCC" x="-15.24" y="12.7" length="middle"/>
+<pin name="SCLK@20" x="-15.24" y="5.08" length="middle"/>
+<pin name="DOUT" x="-15.24" y="2.54" length="middle"/>
+<pin name="DIN" x="-15.24" y="0" length="middle"/>
+<pin name="CS" x="-15.24" y="-2.54" length="middle"/>
+<pin name="INT/SQW" x="-15.24" y="-7.62" length="middle"/>
+<pin name="RST" x="-15.24" y="-12.7" length="middle"/>
+<pin name="32KHZ" x="-15.24" y="-15.24" length="middle"/>
+<pin name="GND@2" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="VBAT" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="SCLK@18" x="-15.24" y="7.62" length="middle"/>
+<pin name="GND@14" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@9" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GND@13" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND@12" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND@11" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@10" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@8" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="GND@7" x="17.78" y="5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15862,6 +15918,41 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <connect gate="G$1" pin="SCK" pad="5"/>
 <connect gate="G$1" pin="SHIELD1" pad="GND1"/>
 <connect gate="G$1" pin="SHIELD2" pad="GND2"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DS3234">
+<description>DS3234 Real Time Clock</description>
+<gates>
+<gate name="G$1" symbol="DS3234" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DS3234">
+<connects>
+<connect gate="G$1" pin="32KHZ" pad="3"/>
+<connect gate="G$1" pin="CS" pad="1"/>
+<connect gate="G$1" pin="DIN" pad="17"/>
+<connect gate="G$1" pin="DOUT" pad="19"/>
+<connect gate="G$1" pin="GND" pad="15"/>
+<connect gate="G$1" pin="GND@10" pad="10"/>
+<connect gate="G$1" pin="GND@11" pad="11"/>
+<connect gate="G$1" pin="GND@12" pad="12"/>
+<connect gate="G$1" pin="GND@13" pad="13"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+<connect gate="G$1" pin="GND@7" pad="7"/>
+<connect gate="G$1" pin="GND@8" pad="8"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="INT/SQW" pad="5"/>
+<connect gate="G$1" pin="RST" pad="6"/>
+<connect gate="G$1" pin="SCLK@18" pad="18"/>
+<connect gate="G$1" pin="SCLK@20" pad="20"/>
+<connect gate="G$1" pin="VBAT" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
@@ -17118,6 +17209,11 @@ Source: www.fairchildsemi.com</description>
 <part name="R17" library="SmartPrj" deviceset="R-EU_" device="R0603" value="39k"/>
 <part name="R18" library="SmartPrj" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="U4" library="SparkFun" deviceset="DS3234" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
+<part name="R19" library="SmartPrj" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="C14" library="SmartPrj" deviceset="C-EU" device="C0603" value="22 pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -17273,6 +17369,14 @@ Source: www.fairchildsemi.com</description>
 <attribute name="VALUE" x="544.195" y="9.652" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND14" gate="1" x="546.1" y="-5.08"/>
+<instance part="U4" gate="G$1" x="624.84" y="63.5"/>
+<instance part="GND17" gate="1" x="647.7" y="40.64"/>
+<instance part="+3V8" gate="G$1" x="586.74" y="76.2" rot="R90"/>
+<instance part="R19" gate="G$1" x="601.98" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="600.3036" y="53.34" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="602.488" y="53.975" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C14" gate="G$1" x="624.84" y="86.36" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17517,6 +17621,52 @@ Source: www.fairchildsemi.com</description>
 <wire x1="546.1" y1="-2.54" x2="546.1" y2="2.54" width="0.1524" layer="91"/>
 <junction x="546.1" y="2.54"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND@2"/>
+<wire x1="642.62" y1="71.12" x2="647.7" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="71.12" x2="647.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@7"/>
+<wire x1="647.7" y1="68.58" x2="647.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="66.04" x2="647.7" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="63.5" x2="647.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="60.96" x2="647.7" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="58.42" x2="647.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="55.88" x2="647.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="53.34" x2="647.7" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="50.8" x2="647.7" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="48.26" x2="647.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="642.62" y1="68.58" x2="647.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@8"/>
+<wire x1="642.62" y1="66.04" x2="647.7" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@9"/>
+<wire x1="642.62" y1="63.5" x2="647.7" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@10"/>
+<wire x1="642.62" y1="60.96" x2="647.7" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@11"/>
+<wire x1="642.62" y1="58.42" x2="647.7" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@12"/>
+<wire x1="642.62" y1="55.88" x2="647.7" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@13"/>
+<wire x1="642.62" y1="53.34" x2="647.7" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@14"/>
+<wire x1="642.62" y1="50.8" x2="647.7" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<wire x1="642.62" y1="48.26" x2="647.7" y2="48.26" width="0.1524" layer="91"/>
+<junction x="647.7" y="48.26"/>
+<junction x="647.7" y="50.8"/>
+<junction x="647.7" y="53.34"/>
+<junction x="647.7" y="55.88"/>
+<junction x="647.7" y="58.42"/>
+<junction x="647.7" y="60.96"/>
+<junction x="647.7" y="63.5"/>
+<junction x="647.7" y="66.04"/>
+<junction x="647.7" y="68.58"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="629.92" y1="86.36" x2="647.7" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="86.36" x2="647.7" y2="71.12" width="0.1524" layer="91"/>
+<junction x="647.7" y="71.12"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -17566,6 +17716,16 @@ Source: www.fairchildsemi.com</description>
 <wire x1="172.72" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 <label x="185.42" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="SCLK@18"/>
+<wire x1="609.6" y1="71.12" x2="607.06" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="SCLK@20"/>
+<wire x1="607.06" y1="71.12" x2="599.44" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="68.58" x2="607.06" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="607.06" y1="68.58" x2="607.06" y2="71.12" width="0.1524" layer="91"/>
+<junction x="607.06" y="71.12"/>
+<label x="599.44" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -17590,6 +17750,11 @@ Source: www.fairchildsemi.com</description>
 <wire x1="172.72" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="185.42" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="DOUT"/>
+<wire x1="609.6" y1="66.04" x2="599.44" y2="66.04" width="0.1524" layer="91"/>
+<label x="599.44" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -17611,6 +17776,11 @@ Source: www.fairchildsemi.com</description>
 <pinref part="U2" gate="G$1" pin="(PDI/MOSI/PCINT2)PB2"/>
 <wire x1="172.72" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
 <label x="185.42" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="DIN"/>
+<wire x1="609.6" y1="63.5" x2="599.44" y2="63.5" width="0.1524" layer="91"/>
+<label x="599.44" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -17888,6 +18058,19 @@ Source: www.fairchildsemi.com</description>
 <wire x1="236.22" y1="195.58" x2="236.22" y2="208.28" width="0.1524" layer="91"/>
 <junction x="236.22" y="195.58"/>
 <junction x="236.22" y="208.28"/>
+</segment>
+<segment>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<pinref part="U4" gate="G$1" pin="VCC"/>
+<wire x1="589.28" y1="76.2" x2="594.36" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="594.36" y1="76.2" x2="609.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="596.9" y1="55.88" x2="594.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="594.36" y1="55.88" x2="594.36" y2="76.2" width="0.1524" layer="91"/>
+<junction x="594.36" y="76.2"/>
+<wire x1="594.36" y1="76.2" x2="594.36" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="594.36" y1="86.36" x2="622.3" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SRAM_CS" class="0">
@@ -18191,6 +18374,20 @@ Source: www.fairchildsemi.com</description>
 <pinref part="U2" gate="G$1" pin="(ADC4/TCK)PF4"/>
 <wire x1="172.72" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
 <label x="182.88" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RTC_CS" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CS"/>
+<wire x1="609.6" y1="60.96" x2="599.44" y2="60.96" width="0.1524" layer="91"/>
+<label x="599.44" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="U4" gate="G$1" pin="INT/SQW"/>
+<wire x1="607.06" y1="55.88" x2="609.6" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

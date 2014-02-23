@@ -19560,13 +19560,14 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <junction x="335.28" y="152.4"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="SRAM_CS" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CS"/>
 <wire x1="210.82" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
+<label x="193.04" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CD1"/>
 <wire x1="299.72" y1="137.16" x2="335.28" y2="137.16" width="0.1524" layer="91"/>
@@ -19574,12 +19575,14 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <wire x1="335.28" y1="137.16" x2="345.44" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="137.16" x2="335.28" y2="139.7" width="0.1524" layer="91"/>
 <junction x="335.28" y="137.16"/>
+<label x="317.5" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="SD_CS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CS"/>
 <wire x1="299.72" y1="157.48" x2="317.5" y2="157.48" width="0.1524" layer="91"/>
+<label x="317.5" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
