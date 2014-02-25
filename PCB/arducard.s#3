@@ -17637,25 +17637,25 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="arducard-fpc" deviceset="051296-4094" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C16" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C17" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C18" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C19" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C20" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C21" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C22" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C23" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C24" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C25" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C15" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/10V"/>
+<part name="C16" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C17" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C18" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C19" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C20" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C21" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C22" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C23" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C24" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C25" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C26" library="SmartPrj" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C27" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C26" library="SmartPrj" deviceset="C-EU" device="C0603" value="1uF/10V"/>
+<part name="C27" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C29" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C30" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C28" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C29" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C30" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
 <part name="R20" library="SmartPrj" deviceset="R-EU_" device="R0603" value="2k"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="R21" library="SmartPrj" deviceset="R-EU_" device="R0603" value="2k"/>
@@ -17848,9 +17848,18 @@ Source: Fairchild .. BAT54.pdf</description>
 <instance part="C18" gate="G$1" x="772.16" y="43.18" rot="R90"/>
 <instance part="C19" gate="G$1" x="759.46" y="38.1" rot="R90"/>
 <instance part="C20" gate="G$1" x="746.76" y="33.02" rot="R90"/>
-<instance part="C21" gate="G$1" x="746.76" y="25.4" rot="R90"/>
-<instance part="C22" gate="G$1" x="759.46" y="20.32" rot="R90"/>
-<instance part="C23" gate="G$1" x="772.16" y="15.24" rot="R90"/>
+<instance part="C21" gate="G$1" x="746.76" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="746.379" y="19.304" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="751.459" y="11.684" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C22" gate="G$1" x="759.46" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="759.079" y="14.224" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="764.159" y="6.604" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C23" gate="G$1" x="772.16" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="771.779" y="16.764" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="776.859" y="16.764" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="C24" gate="G$1" x="784.86" y="10.16" rot="R90"/>
 <instance part="C25" gate="G$1" x="797.56" y="5.08" rot="R90"/>
 <instance part="+3V9" gate="G$1" x="800.1" y="0" rot="R90"/>

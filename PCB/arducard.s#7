@@ -17972,8 +17972,8 @@ Source: www.fairchildsemi.com</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SI"/>
-<wire x1="685.8" y1="81.28" x2="665.48" y2="81.28" width="0.1524" layer="91"/>
-<label x="665.48" y="81.28" size="1.778" layer="95"/>
+<wire x1="685.8" y1="81.28" x2="660.4" y2="81.28" width="0.1524" layer="91"/>
+<label x="660.4" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -18591,8 +18591,8 @@ Source: www.fairchildsemi.com</description>
 <net name="EPD_CS" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="CSB"/>
-<wire x1="685.8" y1="86.36" x2="665.48" y2="86.36" width="0.1524" layer="91"/>
-<label x="665.48" y="86.36" size="1.778" layer="95"/>
+<wire x1="685.8" y1="86.36" x2="660.4" y2="86.36" width="0.1524" layer="91"/>
+<label x="660.4" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EPD_BUSY" class="0">
@@ -18600,6 +18600,13 @@ Source: www.fairchildsemi.com</description>
 <pinref part="U$2" gate="G$1" pin="BUSY"/>
 <wire x1="723.9" y1="86.36" x2="739.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="734.06" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EPD_RESET" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="RESETB"/>
+<wire x1="685.8" y1="78.74" x2="660.4" y2="78.74" width="0.1524" layer="91"/>
+<label x="660.4" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
