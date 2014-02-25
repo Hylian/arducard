@@ -17105,6 +17105,175 @@ Source: www.fairchildsemi.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="arducard-fpc">
+<packages>
+<package name="051296-4094">
+<wire x1="0.15" y1="0" x2="0.15" y2="2.4" width="0.127" layer="51"/>
+<wire x1="0.15" y1="2.4" x2="1.1" y2="2.4" width="0.127" layer="51"/>
+<wire x1="1.1" y1="2.4" x2="1.1" y2="3.65" width="0.127" layer="51"/>
+<wire x1="1.1" y1="3.65" x2="1.8" y2="3.65" width="0.127" layer="51"/>
+<wire x1="1.8" y1="3.65" x2="1.8" y2="3.5" width="0.127" layer="51"/>
+<wire x1="0.15" y1="0" x2="1.95" y2="0" width="0.127" layer="51"/>
+<wire x1="1.95" y1="0" x2="1.95" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="23.85" y1="0" x2="23.85" y2="2.4" width="0.127" layer="52"/>
+<wire x1="23.85" y1="2.4" x2="22.9" y2="2.4" width="0.127" layer="52"/>
+<wire x1="22.9" y1="2.4" x2="22.9" y2="3.65" width="0.127" layer="52"/>
+<wire x1="22.9" y1="3.65" x2="22.2" y2="3.65" width="0.127" layer="52"/>
+<wire x1="22.2" y1="3.65" x2="22.2" y2="3.5" width="0.127" layer="52"/>
+<wire x1="22.2" y1="3.5" x2="16.1" y2="3.5" width="0.127" layer="52"/>
+<wire x1="23.85" y1="0" x2="22.05" y2="0" width="0.127" layer="52"/>
+<wire x1="22.05" y1="0" x2="22.05" y2="-0.45" width="0.127" layer="52"/>
+<wire x1="1.95" y1="-0.45" x2="22.05" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="16.1" y1="3.5" x2="1.8" y2="3.5" width="0.127" layer="51"/>
+<smd name="1" x="2.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="2" x="2.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="3" x="3.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="4" x="3.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="5" x="4.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="6" x="4.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="7" x="5.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="8" x="5.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="9" x="6.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="10" x="6.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="11" x="7.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="12" x="7.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="13" x="8.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="14" x="8.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="15" x="9.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="16" x="9.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="17" x="10.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="18" x="10.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="19" x="11.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="20" x="11.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="21" x="12.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="22" x="12.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="23" x="13.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="24" x="13.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="25" x="14.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="26" x="14.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="27" x="15.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="28" x="15.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="29" x="16.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="30" x="16.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="31" x="17.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="32" x="17.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="33" x="18.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="34" x="18.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="35" x="19.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="36" x="19.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="37" x="20.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="38" x="20.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="39" x="21.25" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<smd name="40" x="21.75" y="3.8" dx="0.3" dy="0.8" layer="1"/>
+<rectangle x1="0" y1="0" x2="1.4" y2="1.5" layer="1"/>
+<rectangle x1="22.6" y1="0" x2="24" y2="1.5" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="051296-4094">
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-27.94" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="CSB" x="-20.32" y="22.86" length="middle"/>
+<pin name="BUSY" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="ID" x="-20.32" y="20.32" length="middle"/>
+<pin name="SCLK" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="SI" x="-20.32" y="17.78" length="middle"/>
+<pin name="SO" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="RESETB" x="-20.32" y="15.24" length="middle"/>
+<pin name="ADC_IN" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="VCL" x="-20.32" y="12.7" length="middle"/>
+<pin name="C42P" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="C42M" x="-20.32" y="10.16" length="middle"/>
+<pin name="C41P" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="C41M" x="-20.32" y="7.62" length="middle"/>
+<pin name="C31M" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="C31P" x="-20.32" y="5.08" length="middle"/>
+<pin name="C21M" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="C21P" x="-20.32" y="2.54" length="middle"/>
+<pin name="C16M" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="C16P" x="-20.32" y="0" length="middle"/>
+<pin name="C15M" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="C15P" x="-20.32" y="-2.54" length="middle"/>
+<pin name="C14M" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="C14P" x="-20.32" y="-5.08" length="middle"/>
+<pin name="C13M" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="C13P" x="-20.32" y="-7.62" length="middle"/>
+<pin name="C12M" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="C12P" x="-20.32" y="-10.16" length="middle"/>
+<pin name="C11M" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="C11P" x="-20.32" y="-12.7" length="middle"/>
+<pin name="VCOM_DRIVER" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="VCC" x="-20.32" y="-15.24" length="middle"/>
+<pin name="VDD" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="VSS" x="-20.32" y="-17.78" length="middle"/>
+<pin name="VGH" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="VGL" x="-20.32" y="-20.32" length="middle"/>
+<pin name="VDH" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="VDL" x="-20.32" y="-22.86" length="middle"/>
+<pin name="BORDER" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="VST" x="-20.32" y="-25.4" length="middle"/>
+<pin name="VCOM_PANEL" x="17.78" y="-25.4" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="051296-4094">
+<gates>
+<gate name="G$1" symbol="051296-4094" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="051296-4094">
+<connects>
+<connect gate="G$1" pin="ADC_IN" pad="8"/>
+<connect gate="G$1" pin="BORDER" pad="38"/>
+<connect gate="G$1" pin="BUSY" pad="2"/>
+<connect gate="G$1" pin="C11M" pad="28"/>
+<connect gate="G$1" pin="C11P" pad="29"/>
+<connect gate="G$1" pin="C12M" pad="26"/>
+<connect gate="G$1" pin="C12P" pad="27"/>
+<connect gate="G$1" pin="C13M" pad="24"/>
+<connect gate="G$1" pin="C13P" pad="25"/>
+<connect gate="G$1" pin="C14M" pad="22"/>
+<connect gate="G$1" pin="C14P" pad="23"/>
+<connect gate="G$1" pin="C15M" pad="20"/>
+<connect gate="G$1" pin="C15P" pad="21"/>
+<connect gate="G$1" pin="C16M" pad="18"/>
+<connect gate="G$1" pin="C16P" pad="19"/>
+<connect gate="G$1" pin="C21M" pad="16"/>
+<connect gate="G$1" pin="C21P" pad="17"/>
+<connect gate="G$1" pin="C31M" pad="14"/>
+<connect gate="G$1" pin="C31P" pad="15"/>
+<connect gate="G$1" pin="C41M" pad="13"/>
+<connect gate="G$1" pin="C41P" pad="12"/>
+<connect gate="G$1" pin="C42M" pad="11"/>
+<connect gate="G$1" pin="C42P" pad="10"/>
+<connect gate="G$1" pin="CSB" pad="1"/>
+<connect gate="G$1" pin="ID" pad="3"/>
+<connect gate="G$1" pin="RESETB" pad="7"/>
+<connect gate="G$1" pin="SCLK" pad="4"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="31"/>
+<connect gate="G$1" pin="VCL" pad="9"/>
+<connect gate="G$1" pin="VCOM_DRIVER" pad="30"/>
+<connect gate="G$1" pin="VCOM_PANEL" pad="40"/>
+<connect gate="G$1" pin="VDD" pad="32"/>
+<connect gate="G$1" pin="VDH" pad="36"/>
+<connect gate="G$1" pin="VDL" pad="37"/>
+<connect gate="G$1" pin="VGH" pad="34"/>
+<connect gate="G$1" pin="VGL" pad="35"/>
+<connect gate="G$1" pin="VSS" pad="33"/>
+<connect gate="G$1" pin="VST" pad="39"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17214,6 +17383,8 @@ Source: www.fairchildsemi.com</description>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="R19" library="SmartPrj" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C14" library="SmartPrj" deviceset="C-EU" device="C0603" value="22 pF"/>
+<part name="U$2" library="arducard-fpc" deviceset="051296-4094" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17377,6 +17548,8 @@ Source: www.fairchildsemi.com</description>
 <attribute name="VALUE" x="602.488" y="53.975" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C14" gate="G$1" x="624.84" y="86.36" rot="R90"/>
+<instance part="U$2" gate="G$1" x="706.12" y="63.5"/>
+<instance part="GND19" gate="1" x="680.72" y="83.82" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -17667,6 +17840,11 @@ Source: www.fairchildsemi.com</description>
 <wire x1="647.7" y1="86.36" x2="647.7" y2="71.12" width="0.1524" layer="91"/>
 <junction x="647.7" y="71.12"/>
 </segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="ID"/>
+<wire x1="683.26" y1="83.82" x2="685.8" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -17726,6 +17904,11 @@ Source: www.fairchildsemi.com</description>
 <junction x="607.06" y="71.12"/>
 <label x="599.44" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="SCLK"/>
+<wire x1="723.9" y1="83.82" x2="739.14" y2="83.82" width="0.1524" layer="91"/>
+<label x="734.06" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -17755,6 +17938,11 @@ Source: www.fairchildsemi.com</description>
 <wire x1="609.6" y1="66.04" x2="599.44" y2="66.04" width="0.1524" layer="91"/>
 <label x="599.44" y="66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="SO"/>
+<wire x1="723.9" y1="81.28" x2="739.14" y2="81.28" width="0.1524" layer="91"/>
+<label x="734.06" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -17781,6 +17969,11 @@ Source: www.fairchildsemi.com</description>
 <pinref part="U4" gate="G$1" pin="DIN"/>
 <wire x1="609.6" y1="63.5" x2="599.44" y2="63.5" width="0.1524" layer="91"/>
 <label x="599.44" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="SI"/>
+<wire x1="685.8" y1="81.28" x2="660.4" y2="81.28" width="0.1524" layer="91"/>
+<label x="660.4" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -18088,12 +18281,17 @@ Source: www.fairchildsemi.com</description>
 <net name="CDP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CD1"/>
-<wire x1="365.76" y1="134.62" x2="401.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="134.62" x2="370.84" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="370.84" y1="134.62" x2="401.32" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="134.62" x2="408.94" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="134.62" x2="401.32" y2="137.16" width="0.1524" layer="91"/>
 <junction x="401.32" y="134.62"/>
 <pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="CD2"/>
+<wire x1="365.76" y1="132.08" x2="370.84" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="132.08" x2="370.84" y2="134.62" width="0.1524" layer="91"/>
+<junction x="370.84" y="134.62"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
@@ -18388,6 +18586,27 @@ Source: www.fairchildsemi.com</description>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="U4" gate="G$1" pin="INT/SQW"/>
 <wire x1="607.06" y1="55.88" x2="609.6" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EPD_CS" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="CSB"/>
+<wire x1="685.8" y1="86.36" x2="660.4" y2="86.36" width="0.1524" layer="91"/>
+<label x="660.4" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EPD_BUSY" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="BUSY"/>
+<wire x1="723.9" y1="86.36" x2="739.14" y2="86.36" width="0.1524" layer="91"/>
+<label x="734.06" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EPD_RESET" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="RESETB"/>
+<wire x1="685.8" y1="78.74" x2="660.4" y2="78.74" width="0.1524" layer="91"/>
+<label x="660.4" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
