@@ -18574,6 +18574,11 @@ package type OT</description>
 <label x="548.64" y="60.96" size="1.778" layer="95"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="XC6802A42XMR-G" pin="BAT"/>
+<wire x1="436.88" y1="33.02" x2="459.74" y2="33.02" width="0.1524" layer="91"/>
+<label x="444.5" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -19198,18 +19203,18 @@ package type OT</description>
 <junction x="718.82" y="86.36"/>
 </segment>
 </net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="U$3" gate="XC6802A42XMR-G" pin="BAT"/>
-<wire x1="436.88" y1="33.02" x2="447.04" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="U$3" gate="XC6802A42XMR-G" pin="ISEN"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="406.4" y1="33.02" x2="403.86" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="33.02" x2="403.86" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$3" gate="XC6802A42XMR-G" pin="/CHG"/>
+<wire x1="436.88" y1="38.1" x2="447.04" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
