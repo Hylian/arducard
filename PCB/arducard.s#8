@@ -17637,25 +17637,25 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="arducard-fpc" deviceset="051296-4094" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C16" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C17" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C18" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C19" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C20" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C21" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C22" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C23" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C24" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C25" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C15" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/10V"/>
+<part name="C16" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C17" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C18" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C19" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C20" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C21" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C22" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C23" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C24" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C25" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C26" library="SmartPrj" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C27" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C26" library="SmartPrj" deviceset="C-EU" device="C0603" value="1uF/10V"/>
+<part name="C27" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C29" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C30" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C28" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/25V"/>
+<part name="C29" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
+<part name="C30" library="SmartPrj" deviceset="C-EU" device="C0603" value="2.2uF/16V"/>
 <part name="R20" library="SmartPrj" deviceset="R-EU_" device="R0603" value="2k"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="R21" library="SmartPrj" deviceset="R-EU_" device="R0603" value="2k"/>
@@ -17848,9 +17848,18 @@ Source: Fairchild .. BAT54.pdf</description>
 <instance part="C18" gate="G$1" x="772.16" y="43.18" rot="R90"/>
 <instance part="C19" gate="G$1" x="759.46" y="38.1" rot="R90"/>
 <instance part="C20" gate="G$1" x="746.76" y="33.02" rot="R90"/>
-<instance part="C21" gate="G$1" x="746.76" y="25.4" rot="R90"/>
-<instance part="C22" gate="G$1" x="759.46" y="20.32" rot="R90"/>
-<instance part="C23" gate="G$1" x="772.16" y="15.24" rot="R90"/>
+<instance part="C21" gate="G$1" x="746.76" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="746.379" y="19.304" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="751.459" y="11.684" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C22" gate="G$1" x="759.46" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="759.079" y="14.224" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="764.159" y="6.604" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C23" gate="G$1" x="772.16" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="771.779" y="16.764" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="776.859" y="16.764" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="C24" gate="G$1" x="784.86" y="10.16" rot="R90"/>
 <instance part="C25" gate="G$1" x="797.56" y="5.08" rot="R90"/>
 <instance part="+3V9" gate="G$1" x="800.1" y="0" rot="R90"/>
@@ -17874,20 +17883,20 @@ Source: Fairchild .. BAT54.pdf</description>
 <attribute name="NAME" x="753.5164" y="-20.32" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="756.412" y="-18.415" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R23" gate="G$1" x="800.1" y="-43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="803.5036" y="-43.18" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="800.608" y="-45.085" size="1.778" layer="96" rot="R270"/>
+<instance part="R23" gate="G$1" x="800.1" y="-38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="803.5036" y="-38.1" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="800.608" y="-40.005" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="Q3" gate="G$1" x="789.94" y="-33.02" smashed="yes" rot="R90">
-<attribute name="VALUE" x="789.94" y="-44.45" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="787.4" y="-39.37" size="1.778" layer="95" rot="R90"/>
+<instance part="Q3" gate="G$1" x="789.94" y="-30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="789.94" y="-41.91" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="787.4" y="-36.83" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="Q4" gate="G$1" x="792.48" y="-68.58" rot="R180"/>
-<instance part="R24" gate="G$1" x="792.48" y="-55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="792.48" y="-52.4764" size="1.778" layer="95"/>
-<attribute name="VALUE" x="794.385" y="-55.372" size="1.778" layer="96"/>
+<instance part="Q4" gate="G$1" x="792.48" y="-63.5" rot="R180"/>
+<instance part="R24" gate="G$1" x="792.48" y="-50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="792.48" y="-47.3964" size="1.778" layer="95"/>
+<attribute name="VALUE" x="794.385" y="-50.292" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V10" gate="G$1" x="792.48" y="-81.28" rot="R180"/>
+<instance part="+3V10" gate="G$1" x="792.48" y="-76.2" rot="R180"/>
 <instance part="D1" gate="G$1" x="701.04" y="-15.24" rot="R180"/>
 <instance part="C31" gate="G$1" x="701.04" y="-22.86"/>
 <instance part="GND23" gate="1" x="690.88" y="-15.24" rot="R270"/>
@@ -18676,7 +18685,7 @@ Source: Fairchild .. BAT54.pdf</description>
 </segment>
 <segment>
 <pinref part="Q4" gate="G$1" pin="S"/>
-<wire x1="792.48" y1="-73.66" x2="792.48" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="792.48" y1="-68.58" x2="792.48" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -19266,10 +19275,10 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="777.24" y1="-20.32" x2="762" y2="-20.32" width="0.1524" layer="91"/>
 <label x="777.24" y="-17.78" size="1.778" layer="95"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="777.24" y1="-20.32" x2="777.24" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="777.24" y1="-20.32" x2="777.24" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="777.24" y="-20.32"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="777.24" y1="-30.48" x2="784.86" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="777.24" y1="-27.94" x2="784.86" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDL" class="0">
@@ -19279,38 +19288,38 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="772.16" y1="-15.24" x2="810.26" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="810.26" y1="-15.24" x2="822.96" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="810.26" y="-15.24"/>
-<wire x1="810.26" y1="-15.24" x2="810.26" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="795.02" y1="-30.48" x2="810.26" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="810.26" y1="-15.24" x2="810.26" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="795.02" y1="-27.94" x2="810.26" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="810.26" y1="-30.48" x2="810.26" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="810.26" y1="-43.18" x2="805.18" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="810.26" y="-30.48"/>
+<wire x1="810.26" y1="-27.94" x2="810.26" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="810.26" y1="-38.1" x2="805.18" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="810.26" y="-27.94"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<wire x1="792.48" y1="-38.1" x2="792.48" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="792.48" y1="-43.18" x2="795.02" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="792.48" y1="-35.56" x2="792.48" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="792.48" y1="-38.1" x2="795.02" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="792.48" y1="-50.8" x2="792.48" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="792.48" y="-43.18"/>
+<wire x1="792.48" y1="-45.72" x2="792.48" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="792.48" y="-38.1"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="792.48" y1="-63.5" x2="792.48" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="792.48" y1="-58.42" x2="792.48" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BORDER_CONTROL" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="797.56" y1="-71.12" x2="825.5" y2="-71.12" width="0.1524" layer="91"/>
-<label x="800.1" y="-71.12" size="1.778" layer="95"/>
+<wire x1="797.56" y1="-66.04" x2="825.5" y2="-66.04" width="0.1524" layer="91"/>
+<label x="800.1" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$40" class="0">
