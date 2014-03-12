@@ -10780,6 +10780,52 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </deviceset>
 </devicesets>
 </library>
+<library name="arducard-coincell">
+<packages>
+<package name="BK-5067">
+<smd name="NEG" x="0" y="0" dx="8" dy="8" layer="1"/>
+<smd name="POS2" x="12" y="0" dx="8" dy="8" layer="1"/>
+<smd name="POS1" x="-12" y="0" dx="8" dy="8" layer="1"/>
+<wire x1="-10" y1="-6" x2="-10" y2="9" width="0.127" layer="20"/>
+<wire x1="-10" y1="-6" x2="-5" y2="-11" width="0.127" layer="20"/>
+<wire x1="-5" y1="-11" x2="5" y2="-11" width="0.127" layer="20"/>
+<wire x1="5" y1="-11" x2="10" y2="-6" width="0.127" layer="20"/>
+<wire x1="10" y1="-6" x2="10" y2="9" width="0.127" layer="20"/>
+<wire x1="10" y1="9" x2="9" y2="10" width="0.127" layer="20" curve="90"/>
+<wire x1="9" y1="10" x2="8" y2="10" width="0.127" layer="20"/>
+<wire x1="8" y1="10" x2="6" y2="8" width="0.127" layer="20" curve="-90"/>
+<wire x1="6" y1="8" x2="-6" y2="8" width="0.127" layer="20"/>
+<wire x1="-6" y1="8" x2="-8" y2="10" width="0.127" layer="20" curve="-90"/>
+<wire x1="-8" y1="10" x2="-9" y2="10" width="0.127" layer="20"/>
+<wire x1="-9" y1="10" x2="-10" y2="9" width="0.127" layer="20" curve="90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LIR2016">
+<pin name="+" x="-10.16" y="-2.54" visible="pin" length="middle"/>
+<pin name="–" x="-10.16" y="2.54" visible="pin" length="middle"/>
+<circle x="0" y="0" radius="7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LIR2016">
+<gates>
+<gate name="G$1" symbol="LIR2016" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BK-5067">
+<connects>
+<connect gate="G$1" pin="+" pad="POS1 POS2"/>
+<connect gate="G$1" pin="–" pad="NEG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10930,6 +10976,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="R26" library="SmartPrj" deviceset="R-EU_" device="R0603" value="150"/>
 <part name="U$1" library="arducard-switch" deviceset="EVQ-PUA" device=""/>
 <part name="R27" library="SmartPrj" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="U$7" library="arducard-coincell" deviceset="LIR2016" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11190,6 +11238,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <attribute name="NAME" x="227.7364" y="160.02" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="225.552" y="159.385" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$7" gate="G$1" x="482.6" y="55.88"/>
+<instance part="GND6" gate="1" x="454.66" y="58.42" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -11528,18 +11578,22 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="231.14" y1="157.48" x2="236.22" y2="157.48" width="0.1524" layer="91"/>
 <junction x="236.22" y="157.48"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="–"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="472.44" y1="58.42" x2="457.2" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
 <wire x1="25.4" y1="139.7" x2="17.78" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="139.7" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="129.54" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="139.7" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="121.92" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="124.46" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
 <junction x="53.34" y="119.38"/>
-<label x="20.32" y="129.54" size="1.778" layer="95"/>
 <label x="40.64" y="119.38" size="1.778" layer="95"/>
 <pinref part="ICSP" gate="A" pin="5"/>
 <pinref part="U2" gate="G$1" pin="RESET"/>
@@ -12018,6 +12072,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="472.44" y1="88.9" x2="457.2" y2="88.9" width="0.1524" layer="91"/>
 <label x="457.2" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="+"/>
+<wire x1="472.44" y1="53.34" x2="457.2" y2="53.34" width="0.1524" layer="91"/>
+<label x="457.2" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
