@@ -11035,6 +11035,8 @@ MAX3223-MAX3243.pdf</description>
 <part name="U$10" library="arducard-rtc" deviceset="DS1343" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="C10" library="SmartPrj" deviceset="C-EU" device="C0603" value="4.7 uF"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11298,6 +11300,8 @@ MAX3223-MAX3243.pdf</description>
 <instance part="U$10" gate="G$1" x="619.76" y="58.42"/>
 <instance part="+3V7" gate="G$1" x="657.86" y="68.58" rot="R270"/>
 <instance part="GND12" gate="1" x="596.9" y="38.1"/>
+<instance part="C10" gate="G$1" x="515.62" y="114.3"/>
+<instance part="GND17" gate="1" x="515.62" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -11604,6 +11608,11 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="650.24" y1="58.42" x2="650.24" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="650.24" y1="43.18" x2="596.9" y2="43.18" width="0.1524" layer="91"/>
 <junction x="596.9" y="43.18"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="515.62" y1="106.68" x2="515.62" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -12063,7 +12072,11 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="530.86" y1="119.38" x2="525.78" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="119.38" x2="525.78" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="124.46" x2="515.62" y2="124.46" width="0.1524" layer="91"/>
-<label x="502.92" y="124.46" size="1.778" layer="95"/>
+<label x="490.22" y="124.46" size="1.778" layer="95"/>
+<junction x="525.78" y="124.46"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="515.62" y1="124.46" x2="508" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="116.84" x2="515.62" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
