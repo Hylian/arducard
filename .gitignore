@@ -1,3 +1,6 @@
+# Eagle temp files
+*.s#*
+
 # Object files
 *.o
 

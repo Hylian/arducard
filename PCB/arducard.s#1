@@ -11037,6 +11037,9 @@ MAX3223-MAX3243.pdf</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="SmartPrj" deviceset="C-EU" device="C0603" value="4.7 uF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11086,6 +11089,7 @@ MAX3223-MAX3243.pdf</description>
 <text x="215.9" y="182.88" size="5.08" layer="97">USB Micro Connector</text>
 <text x="347.98" y="182.88" size="5.08" layer="97">Battery Level Sensing</text>
 <text x="482.6" y="182.88" size="5.08" layer="97">ePaper Display</text>
+<text x="0" y="302.26" size="12.7" layer="97">Arducard</text>
 </plain>
 <instances>
 <instance part="ICSP" gate="A" x="30.48" y="134.62" smashed="yes">
@@ -11136,7 +11140,7 @@ MAX3223-MAX3243.pdf</description>
 <attribute name="NAME" x="668.02" y="240.4364" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="668.655" y="238.252" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C5" gate="G$1" x="337.82" y="254"/>
+<instance part="C5" gate="G$1" x="335.28" y="254"/>
 <instance part="+3V4" gate="G$1" x="45.72" y="142.24"/>
 <instance part="IC1" gate="G1" x="528.32" y="243.84"/>
 <instance part="L1" gate="G$1" x="548.64" y="248.92" rot="R90"/>
@@ -11346,6 +11350,9 @@ MAX3223-MAX3243.pdf</description>
 <instance part="GND12" gate="1" x="238.76" y="223.52"/>
 <instance part="C10" gate="G$1" x="502.92" y="238.76"/>
 <instance part="GND17" gate="1" x="502.92" y="228.6"/>
+<instance part="+3V8" gate="G$1" x="220.98" y="236.22" rot="R90"/>
+<instance part="+3V10" gate="G$1" x="241.3" y="269.24"/>
+<instance part="GND31" gate="1" x="292.1" y="233.68"/>
 </instances>
 <busses>
 </busses>
@@ -11533,8 +11540,8 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="363.22" y1="226.06" x2="363.22" y2="231.14" width="0.1524" layer="91"/>
 <junction x="363.22" y="231.14"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="248.92" x2="337.82" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="231.14" x2="345.44" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="248.92" x2="335.28" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="231.14" x2="345.44" y2="231.14" width="0.1524" layer="91"/>
 <junction x="345.44" y="231.14"/>
 </segment>
 <segment>
@@ -11645,18 +11652,18 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <wire x1="238.76" y1="233.68" x2="243.84" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="233.68" x2="238.76" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="233.68" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="228.6" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="243.84" x2="292.1" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="228.6" x2="238.76" y2="228.6" width="0.1524" layer="91"/>
-<junction x="238.76" y="228.6"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="502.92" y1="231.14" x2="502.92" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="243.84" x2="292.1" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="GND31" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -11852,11 +11859,11 @@ MAX3223-MAX3243.pdf</description>
 </segment>
 <segment>
 <pinref part="U$3" gate="XC6802A42XMR-G" pin="VIN"/>
-<wire x1="347.98" y1="256.54" x2="337.82" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="256.54" x2="335.28" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="256.54" x2="327.66" y2="256.54" width="0.1524" layer="91"/>
-<junction x="337.82" y="256.54"/>
-<label x="327.66" y="256.54" size="1.778" layer="95"/>
+<wire x1="335.28" y1="256.54" x2="325.12" y2="256.54" width="0.1524" layer="91"/>
+<junction x="335.28" y="256.54"/>
+<label x="325.12" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UCAP" class="0">
@@ -12050,22 +12057,21 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <pinref part="U$10" gate="G$1" pin="VCC"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="279.4" y1="254" x2="281.94" y2="254" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="254" x2="292.1" y2="254" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="254" x2="292.1" y2="254" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="254" x2="297.18" y2="254" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="254" x2="281.94" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="266.7" x2="241.3" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="266.7" x2="241.3" y2="264.16" width="0.1524" layer="91"/>
-<junction x="281.94" y="254"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="251.46" x2="292.1" y2="254" width="0.1524" layer="91"/>
 <junction x="292.1" y="254"/>
+</segment>
+<segment>
 <pinref part="U$10" gate="G$1" pin="SERMODE"/>
-<wire x1="243.84" y1="236.22" x2="218.44" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="236.22" x2="218.44" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="266.7" x2="241.3" y2="266.7" width="0.1524" layer="91"/>
-<junction x="241.3" y="266.7"/>
+<wire x1="243.84" y1="236.22" x2="223.52" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="266.7" x2="241.3" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="FRAM_CS" class="0">
