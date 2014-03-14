@@ -1,5 +1,6 @@
 # Eagle temp files
-*.s#*
+*.s\#*
+*.b\#*
 
 # Object files
 *.o
