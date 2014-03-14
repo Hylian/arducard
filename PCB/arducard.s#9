@@ -9733,6 +9733,21 @@ Based on the following sources:
 <pin name="C2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="C1A2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="SCHOTTKY-1">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BAT54S" prefix="D">
@@ -9748,6 +9763,24 @@ Source: Fairchild .. BAT54.pdf</description>
 <connect gate="G$1" pin="A1" pad="1"/>
 <connect gate="G$1" pin="C1A2" pad="3"/>
 <connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS40" prefix="D">
+<description>&lt;b&gt;Silicon Schottky Diodes&lt;/b&gt;&lt;p&gt;
+General-purpose diode for high-speed switching</description>
+<gates>
+<gate name="1" symbol="SCHOTTKY-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="C" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11040,6 +11073,10 @@ MAX3223-MAX3243.pdf</description>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
+<part name="Q10" library="transistor-small-signal" deviceset="BSS84" device=""/>
+<part name="U$12" library="MyPOW" deviceset="VUSB" device=""/>
+<part name="D2" library="diode" deviceset="BAS40" device=""/>
+<part name="U$13" library="MyPOW" deviceset="VUSB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11142,10 +11179,10 @@ MAX3223-MAX3243.pdf</description>
 </instance>
 <instance part="C5" gate="G$1" x="335.28" y="254"/>
 <instance part="+3V4" gate="G$1" x="45.72" y="142.24"/>
-<instance part="IC1" gate="G1" x="528.32" y="243.84"/>
-<instance part="L1" gate="G$1" x="548.64" y="248.92" rot="R90"/>
-<instance part="C12" gate="G$1" x="566.42" y="238.76"/>
-<instance part="+3V5" gate="G$1" x="579.12" y="248.92" rot="R270"/>
+<instance part="IC1" gate="G1" x="543.56" y="243.84"/>
+<instance part="L1" gate="G$1" x="563.88" y="248.92" rot="R90"/>
+<instance part="C12" gate="G$1" x="581.66" y="238.76"/>
+<instance part="+3V5" gate="G$1" x="594.36" y="248.92" rot="R270"/>
 <instance part="+3V6" gate="G$1" x="678.18" y="246.38" rot="R270"/>
 <instance part="U$8" gate="G$1" x="60.96" y="264.16"/>
 <instance part="R5" gate="G$1" x="33.02" y="264.16" smashed="yes">
@@ -11192,8 +11229,8 @@ MAX3223-MAX3243.pdf</description>
 <instance part="GND3" gate="1" x="45.72" y="73.66"/>
 <instance part="GND5" gate="1" x="127" y="228.6" rot="R270"/>
 <instance part="GND7" gate="1" x="642.62" y="218.44"/>
-<instance part="GND11" gate="1" x="530.86" y="228.6"/>
-<instance part="GND13" gate="1" x="566.42" y="228.6"/>
+<instance part="GND11" gate="1" x="546.1" y="228.6"/>
+<instance part="GND13" gate="1" x="581.66" y="228.6"/>
 <instance part="Q1" gate="G$1" x="406.4" y="86.36"/>
 <instance part="R15" gate="G$1" x="386.08" y="86.36" smashed="yes">
 <attribute name="NAME" x="387.7564" y="88.9" size="1.778" layer="95" rot="R90"/>
@@ -11348,11 +11385,15 @@ MAX3223-MAX3243.pdf</description>
 <instance part="U$10" gate="G$1" x="261.62" y="243.84"/>
 <instance part="+3V7" gate="G$1" x="299.72" y="254" rot="R270"/>
 <instance part="GND12" gate="1" x="238.76" y="223.52"/>
-<instance part="C10" gate="G$1" x="502.92" y="238.76"/>
-<instance part="GND17" gate="1" x="502.92" y="228.6"/>
+<instance part="C10" gate="G$1" x="518.16" y="238.76"/>
+<instance part="GND17" gate="1" x="518.16" y="228.6"/>
 <instance part="+3V8" gate="G$1" x="220.98" y="236.22" rot="R90"/>
 <instance part="+3V10" gate="G$1" x="241.3" y="269.24"/>
 <instance part="GND31" gate="1" x="292.1" y="233.68"/>
+<instance part="Q10" gate="G$1" x="502.92" y="254"/>
+<instance part="U$12" gate="G$1" x="518.16" y="264.16"/>
+<instance part="D2" gate="1" x="490.22" y="256.54"/>
+<instance part="U$13" gate="G$1" x="482.6" y="264.16"/>
 </instances>
 <busses>
 </busses>
@@ -11446,12 +11487,12 @@ MAX3223-MAX3243.pdf</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G1" pin="GND"/>
-<wire x1="530.86" y1="233.68" x2="530.86" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="233.68" x2="546.1" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="233.68" x2="566.42" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="581.66" y1="233.68" x2="581.66" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11658,7 +11699,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="502.92" y1="231.14" x2="502.92" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="231.14" x2="518.16" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -11865,6 +11906,28 @@ MAX3223-MAX3243.pdf</description>
 <junction x="335.28" y="256.54"/>
 <label x="325.12" y="256.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G1" pin="IN"/>
+<wire x1="528.32" y1="248.92" x2="533.4" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G1" pin="EN"/>
+<wire x1="533.4" y1="243.84" x2="528.32" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="243.84" x2="528.32" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
+<junction x="528.32" y="248.92"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="518.16" y1="241.3" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="Q10" gate="G$1" pin="D"/>
+<wire x1="502.92" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
+<junction x="518.16" y="248.92"/>
+<pinref part="U$12" gate="G$1" pin="VUSB"/>
+<wire x1="518.16" y1="248.92" x2="518.16" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="VUSB"/>
+<wire x1="482.6" y1="261.62" x2="482.6" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="D2" gate="1" pin="A"/>
+<wire x1="482.6" y1="256.54" x2="487.68" y2="256.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="UCAP" class="0">
 <segment>
@@ -11973,20 +12036,20 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="556.26" y1="248.92" x2="558.8" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="248.92" x2="574.04" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="558.8" y1="248.92" x2="566.42" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="248.92" x2="576.58" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="241.3" x2="566.42" y2="248.92" width="0.1524" layer="91"/>
-<junction x="566.42" y="248.92"/>
+<wire x1="574.04" y1="248.92" x2="581.66" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="581.66" y1="248.92" x2="591.82" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="581.66" y1="241.3" x2="581.66" y2="248.92" width="0.1524" layer="91"/>
+<junction x="581.66" y="248.92"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="IC1" gate="G1" pin="BYP"/>
-<wire x1="518.16" y1="238.76" x2="515.62" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="238.76" x2="515.62" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="226.06" x2="558.8" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="558.8" y1="226.06" x2="558.8" y2="248.92" width="0.1524" layer="91"/>
-<junction x="558.8" y="248.92"/>
+<wire x1="533.4" y1="238.76" x2="530.86" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="530.86" y1="238.76" x2="530.86" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="530.86" y1="226.06" x2="574.04" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="226.06" x2="574.04" y2="248.92" width="0.1524" layer="91"/>
+<junction x="574.04" y="248.92"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
@@ -12116,19 +12179,6 @@ MAX3223-MAX3243.pdf</description>
 </net>
 <net name="BATT_RAW" class="0">
 <segment>
-<pinref part="IC1" gate="G1" pin="IN"/>
-<wire x1="513.08" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G1" pin="EN"/>
-<wire x1="518.16" y1="243.84" x2="513.08" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="513.08" y1="243.84" x2="513.08" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="513.08" y1="248.92" x2="502.92" y2="248.92" width="0.1524" layer="91"/>
-<label x="480.06" y="248.92" size="1.778" layer="95"/>
-<junction x="513.08" y="248.92"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="248.92" x2="495.3" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="502.92" y1="241.3" x2="502.92" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="408.94" y1="109.22" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
@@ -12161,12 +12211,17 @@ MAX3223-MAX3243.pdf</description>
 <label x="424.18" y="226.06" size="1.778" layer="95"/>
 <pinref part="U$6" gate="G$1" pin="+"/>
 </segment>
+<segment>
+<pinref part="Q10" gate="G$1" pin="S"/>
+<wire x1="502.92" y1="259.08" x2="502.92" y2="274.32" width="0.1524" layer="91"/>
+<label x="502.92" y="261.62" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="IC1" gate="G1" pin="OUT"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="538.48" y1="248.92" x2="541.02" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="248.92" x2="556.26" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12867,6 +12922,13 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="U$10" gate="G$1" pin="SCLK"/>
 <wire x1="243.84" y1="243.84" x2="223.52" y2="243.84" width="0.1524" layer="91"/>
 <label x="223.52" y="243.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="D2" gate="1" pin="C"/>
+<pinref part="Q10" gate="G$1" pin="G"/>
+<wire x1="492.76" y1="256.54" x2="497.84" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

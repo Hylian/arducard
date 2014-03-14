@@ -12190,8 +12190,6 @@ http://www.micrel.com&lt;p&gt;
 </net>
 <net name="CDP" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="CD1"/>
-<wire x1="635" y1="231.14" x2="640.08" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="640.08" y1="231.14" x2="670.56" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="670.56" y1="231.14" x2="678.18" y2="231.14" width="0.1524" layer="91"/>
@@ -12201,7 +12199,6 @@ http://www.micrel.com&lt;p&gt;
 <pinref part="J2" gate="G$1" pin="CD2"/>
 <wire x1="635" y1="228.6" x2="640.08" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="640.08" y1="228.6" x2="640.08" y2="231.14" width="0.1524" layer="91"/>
-<junction x="640.08" y="231.14"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">

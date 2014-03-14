@@ -10964,7 +10964,7 @@ MAX3223-MAX3243.pdf</description>
 <part name="R2" library="SmartPrj" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C5" library="SmartPrj" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC1" library="v-reg-micrel" deviceset="MIC5219XX" device=""/>
+<part name="U4" library="v-reg-micrel" deviceset="MIC5219XX" device=""/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="30OHM,1.8A" value="2.2 uH"/>
 <part name="C12" library="SmartPrj" deviceset="C-EU" device="C0603" value="10 uF"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
@@ -11042,16 +11042,16 @@ MAX3223-MAX3243.pdf</description>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="Q2" library="transistor-fet" deviceset="DMG2301U-7" device="" value="DMG2301U-7"/>
-<part name="U$3" library="arducard-xc6802" deviceset="XC6802A42XMR-G" device=""/>
+<part name="U3" library="arducard-xc6802" deviceset="XC6802A42XMR-G" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="R21" library="SmartPrj" deviceset="R-EU_" device="R0603" value="18.2k"/>
-<part name="U$4" library="arducard-battery" deviceset="PGEB016144" device=""/>
+<part name="B1" library="arducard-battery" deviceset="PGEB016144" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="U$5" library="arducard-fram" deviceset="MB85RS128B-FRAM" device=""/>
+<part name="U5" library="arducard-fram" deviceset="MB85RS128B-FRAM" device=""/>
 <part name="C8" library="SmartPrj" deviceset="C-EU" device="C0603" value="10u"/>
 <part name="R3" library="SmartPrj" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R4" library="SmartPrj" deviceset="R-EU_" device="R0603" value="22R"/>
@@ -11062,10 +11062,10 @@ MAX3223-MAX3243.pdf</description>
 <part name="U$1" library="arducard-switch" deviceset="EVQ-PUA" device=""/>
 <part name="R27" library="SmartPrj" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U$6" library="arducard-coincell" deviceset="LIR2016" device=""/>
+<part name="B2" library="arducard-coincell" deviceset="LIR2016" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="U$7" library="arducard-rtc" deviceset="SSP-T7-F" device=""/>
-<part name="U$10" library="arducard-rtc" deviceset="DS1343" device=""/>
+<part name="U10" library="arducard-rtc" deviceset="DS1343" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="SmartPrj" deviceset="C-EU" device="C0603" value="4.7 uF"/>
@@ -11179,7 +11179,7 @@ MAX3223-MAX3243.pdf</description>
 </instance>
 <instance part="C5" gate="G$1" x="335.28" y="254"/>
 <instance part="+3V4" gate="G$1" x="45.72" y="142.24"/>
-<instance part="IC1" gate="G1" x="543.56" y="243.84"/>
+<instance part="U4" gate="G1" x="543.56" y="243.84"/>
 <instance part="L1" gate="G$1" x="563.88" y="248.92" rot="R90"/>
 <instance part="C12" gate="G$1" x="581.66" y="238.76"/>
 <instance part="+3V5" gate="G$1" x="594.36" y="248.92" rot="R270"/>
@@ -11341,19 +11341,19 @@ MAX3223-MAX3243.pdf</description>
 <attribute name="VALUE" x="433.91" y="93.43" size="1.778" layer="96"/>
 <attribute name="NAME" x="433.91" y="95.97" size="1.778" layer="95"/>
 </instance>
-<instance part="U$3" gate="XC6802A42XMR-G" x="363.22" y="254"/>
+<instance part="U3" gate="XC6802A42XMR-G" x="363.22" y="254"/>
 <instance part="GND28" gate="1" x="363.22" y="223.52"/>
 <instance part="R21" gate="G$1" x="345.44" y="241.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="342.9" y="242.9764" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="343.535" y="240.792" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$4" gate="G$1" x="449.58" y="246.38"/>
+<instance part="B1" gate="G$1" x="449.58" y="246.38"/>
 <instance part="GND9" gate="1" x="421.64" y="248.92" rot="R270"/>
 <instance part="JP1" gate="G$1" x="449.58" y="261.62" rot="MR0"/>
 <instance part="GND10" gate="1" x="421.64" y="264.16" rot="R270"/>
 <instance part="GND4" gate="1" x="83.82" y="81.28" rot="R270"/>
 <instance part="GND29" gate="1" x="81.28" y="116.84"/>
-<instance part="U$5" gate="G$1" x="152.4" y="238.76"/>
+<instance part="U5" gate="G$1" x="152.4" y="238.76"/>
 <instance part="C8" gate="G$1" x="314.96" y="78.74" rot="MR180"/>
 <instance part="R3" gate="G$1" x="55.88" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.34" y="123.5964" size="1.778" layer="95" rot="R180"/>
@@ -11379,10 +11379,10 @@ MAX3223-MAX3243.pdf</description>
 <attribute name="VALUE" x="60.452" y="217.805" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND6" gate="1" x="421.64" y="231.14" rot="R270"/>
-<instance part="U$6" gate="G$1" x="449.58" y="228.6"/>
+<instance part="B2" gate="G$1" x="449.58" y="228.6"/>
 <instance part="GND2" gate="1" x="264.16" y="45.72"/>
 <instance part="U$7" gate="G$1" x="284.48" y="243.84" rot="R90"/>
-<instance part="U$10" gate="G$1" x="261.62" y="243.84"/>
+<instance part="U10" gate="G$1" x="261.62" y="243.84"/>
 <instance part="+3V7" gate="G$1" x="299.72" y="254" rot="R270"/>
 <instance part="GND12" gate="1" x="238.76" y="223.52"/>
 <instance part="C10" gate="G$1" x="518.16" y="238.76"/>
@@ -11469,7 +11469,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <wire x1="137.16" y1="228.6" x2="129.54" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -11486,7 +11486,7 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G1" pin="GND"/>
+<pinref part="U4" gate="G1" pin="GND"/>
 <wire x1="546.1" y1="233.68" x2="546.1" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
@@ -11575,7 +11575,7 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="236.22" x2="345.44" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="231.14" x2="363.22" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="XC6802A42XMR-G" pin="VSS"/>
+<pinref part="U3" gate="XC6802A42XMR-G" pin="VSS"/>
 <wire x1="363.22" y1="231.14" x2="363.22" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="363.22" y1="226.06" x2="363.22" y2="231.14" width="0.1524" layer="91"/>
@@ -11587,7 +11587,7 @@ MAX3223-MAX3243.pdf</description>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="U$4" gate="G$1" pin="-"/>
+<pinref part="B1" gate="G$1" pin="-"/>
 <wire x1="424.18" y1="248.92" x2="439.42" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -11639,7 +11639,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="439.42" y1="231.14" x2="424.18" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="–"/>
+<pinref part="B2" gate="G$1" pin="–"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
@@ -11691,7 +11691,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="264.16" y1="48.26" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="GND"/>
+<pinref part="U10" gate="G$1" pin="GND"/>
 <wire x1="238.76" y1="233.68" x2="243.84" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="233.68" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -11734,7 +11734,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <wire x1="167.64" y1="233.68" x2="172.72" y2="233.68" width="0.1524" layer="91"/>
 <label x="175.26" y="233.68" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="SCK"/>
+<pinref part="U5" gate="G$1" pin="SCK"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCK"/>
@@ -11763,7 +11763,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <wire x1="137.16" y1="238.76" x2="132.08" y2="238.76" width="0.1524" layer="91"/>
 <label x="124.46" y="238.76" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="SO"/>
+<pinref part="U5" gate="G$1" pin="SO"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="DO"/>
@@ -11781,7 +11781,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="622.3" y1="152.4" x2="665.48" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="SDO"/>
+<pinref part="U10" gate="G$1" pin="SDO"/>
 <wire x1="243.84" y1="238.76" x2="223.52" y2="238.76" width="0.1524" layer="91"/>
 <label x="223.52" y="238.76" size="1.778" layer="95"/>
 </segment>
@@ -11795,7 +11795,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <wire x1="167.64" y1="228.6" x2="172.72" y2="228.6" width="0.1524" layer="91"/>
 <label x="175.26" y="228.6" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="SI"/>
+<pinref part="U5" gate="G$1" pin="SI"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="DI"/>
@@ -11813,7 +11813,7 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="U$2" gate="G$1" pin="SI"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="SDI"/>
+<pinref part="U10" gate="G$1" pin="SDI"/>
 <wire x1="243.84" y1="241.3" x2="223.52" y2="241.3" width="0.1524" layer="91"/>
 <label x="223.52" y="241.3" size="1.778" layer="95"/>
 </segment>
@@ -11899,7 +11899,7 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="XC6802A42XMR-G" pin="VIN"/>
+<pinref part="U3" gate="XC6802A42XMR-G" pin="VIN"/>
 <wire x1="347.98" y1="256.54" x2="335.28" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="335.28" y1="256.54" x2="325.12" y2="256.54" width="0.1524" layer="91"/>
@@ -11907,9 +11907,9 @@ MAX3223-MAX3243.pdf</description>
 <label x="325.12" y="256.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G1" pin="IN"/>
+<pinref part="U4" gate="G1" pin="IN"/>
 <wire x1="528.32" y1="248.92" x2="533.4" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G1" pin="EN"/>
+<pinref part="U4" gate="G1" pin="EN"/>
 <wire x1="533.4" y1="243.84" x2="528.32" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="528.32" y1="243.84" x2="528.32" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="528.32" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
@@ -12027,7 +12027,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <wire x1="167.64" y1="243.84" x2="172.72" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<pinref part="U$5" gate="G$1" pin="VDD"/>
+<pinref part="U5" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="139.7" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
@@ -12044,7 +12044,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="581.66" y1="241.3" x2="581.66" y2="248.92" width="0.1524" layer="91"/>
 <junction x="581.66" y="248.92"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="IC1" gate="G1" pin="BYP"/>
+<pinref part="U4" gate="G1" pin="BYP"/>
 <wire x1="533.4" y1="238.76" x2="530.86" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="530.86" y1="238.76" x2="530.86" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="530.86" y1="226.06" x2="574.04" y2="226.06" width="0.1524" layer="91"/>
@@ -12118,7 +12118,7 @@ MAX3223-MAX3243.pdf</description>
 <junction x="66.04" y="264.16"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="VCC"/>
+<pinref part="U10" gate="G$1" pin="VCC"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="279.4" y1="254" x2="292.1" y2="254" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="254" x2="297.18" y2="254" width="0.1524" layer="91"/>
@@ -12127,7 +12127,7 @@ MAX3223-MAX3243.pdf</description>
 <junction x="292.1" y="254"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="SERMODE"/>
+<pinref part="U10" gate="G$1" pin="SERMODE"/>
 <wire x1="243.84" y1="236.22" x2="223.52" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
@@ -12141,7 +12141,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <wire x1="137.16" y1="243.84" x2="132.08" y2="243.84" width="0.1524" layer="91"/>
 <label x="119.38" y="243.84" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="/CS"/>
+<pinref part="U5" gate="G$1" pin="/CS"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="(ICP1/ADC8)PD4"/>
@@ -12192,12 +12192,12 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="Q2" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="XC6802A42XMR-G" pin="BAT"/>
+<pinref part="U3" gate="XC6802A42XMR-G" pin="BAT"/>
 <wire x1="378.46" y1="251.46" x2="401.32" y2="251.46" width="0.1524" layer="91"/>
 <label x="386.08" y="251.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="+"/>
+<pinref part="B1" gate="G$1" pin="+"/>
 <wire x1="439.42" y1="243.84" x2="424.18" y2="243.84" width="0.1524" layer="91"/>
 <label x="424.18" y="243.84" size="1.778" layer="95"/>
 </segment>
@@ -12209,7 +12209,7 @@ MAX3223-MAX3243.pdf</description>
 <segment>
 <wire x1="439.42" y1="226.06" x2="424.18" y2="226.06" width="0.1524" layer="91"/>
 <label x="424.18" y="226.06" size="1.778" layer="95"/>
-<pinref part="U$6" gate="G$1" pin="+"/>
+<pinref part="B2" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="Q10" gate="G$1" pin="S"/>
@@ -12219,7 +12219,7 @@ MAX3223-MAX3243.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC1" gate="G1" pin="OUT"/>
+<pinref part="U4" gate="G1" pin="OUT"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="553.72" y1="248.92" x2="556.26" y2="248.92" width="0.1524" layer="91"/>
 </segment>
@@ -12414,7 +12414,7 @@ MAX3223-MAX3243.pdf</description>
 <label x="185.42" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="CE"/>
+<pinref part="U10" gate="G$1" pin="CE"/>
 <wire x1="243.84" y1="246.38" x2="223.52" y2="246.38" width="0.1524" layer="91"/>
 <label x="223.52" y="246.38" size="1.778" layer="95"/>
 </segment>
@@ -12426,7 +12426,7 @@ MAX3223-MAX3243.pdf</description>
 <label x="187.96" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="/INT0"/>
+<pinref part="U10" gate="G$1" pin="/INT0"/>
 <wire x1="243.84" y1="254" x2="241.3" y2="254" width="0.1524" layer="91"/>
 <label x="223.52" y="254" size="1.778" layer="95"/>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -12856,7 +12856,7 @@ MAX3223-MAX3243.pdf</description>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="U$3" gate="XC6802A42XMR-G" pin="ISEN"/>
+<pinref part="U3" gate="XC6802A42XMR-G" pin="ISEN"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="251.46" x2="345.44" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="251.46" x2="345.44" y2="246.38" width="0.1524" layer="91"/>
@@ -12864,7 +12864,7 @@ MAX3223-MAX3243.pdf</description>
 </net>
 <net name="CHGSTAT" class="0">
 <segment>
-<pinref part="U$3" gate="XC6802A42XMR-G" pin="/CHG"/>
+<pinref part="U3" gate="XC6802A42XMR-G" pin="/CHG"/>
 <wire x1="378.46" y1="256.54" x2="401.32" y2="256.54" width="0.1524" layer="91"/>
 <label x="386.08" y="256.54" size="1.778" layer="95"/>
 </segment>
@@ -12903,7 +12903,7 @@ MAX3223-MAX3243.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="X1"/>
+<pinref part="U10" gate="G$1" pin="X1"/>
 <wire x1="279.4" y1="248.92" x2="284.48" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="248.92" x2="284.48" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="P$2"/>
@@ -12911,7 +12911,7 @@ MAX3223-MAX3243.pdf</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="X2"/>
+<pinref part="U10" gate="G$1" pin="X2"/>
 <pinref part="U$7" gate="G$1" pin="P$1"/>
 <wire x1="279.4" y1="238.76" x2="284.48" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="238.76" x2="284.48" y2="241.3" width="0.1524" layer="91"/>
@@ -12919,7 +12919,7 @@ MAX3223-MAX3243.pdf</description>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="SCLK"/>
+<pinref part="U10" gate="G$1" pin="SCLK"/>
 <wire x1="243.84" y1="243.84" x2="223.52" y2="243.84" width="0.1524" layer="91"/>
 <label x="223.52" y="243.84" size="1.778" layer="95"/>
 </segment>
