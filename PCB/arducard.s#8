@@ -11162,7 +11162,7 @@ http://www.micrel.com&lt;p&gt;
 <text x="99.06" y="287.02" size="5.08" layer="97">FRAM</text>
 <text x="2.54" y="287.02" size="5.08" layer="97">Tactile Buttons</text>
 <text x="2.54" y="182.88" size="5.08" layer="97">Microcontroller</text>
-<text x="215.9" y="182.88" size="5.08" layer="97">USB Micro Connector</text>
+<text x="215.9" y="182.88" size="5.08" layer="97">MicroUSB Connector</text>
 <text x="347.98" y="182.88" size="5.08" layer="97">Battery Level Sensing</text>
 <text x="482.6" y="182.88" size="5.08" layer="97">ePaper Display</text>
 <text x="0" y="302.26" size="12.7" layer="97">Arducard</text>

@@ -11292,7 +11292,7 @@ http://www.micrel.com&lt;p&gt;
 <instance part="GND31" gate="1" x="292.1" y="233.68"/>
 <instance part="Q1" gate="G$1" x="502.92" y="241.3"/>
 <instance part="U$12" gate="G$1" x="518.16" y="264.16"/>
-<instance part="D1" gate="1" x="490.22" y="243.84" rot="MR0"/>
+<instance part="D1" gate="1" x="518.16" y="256.54" rot="MR270"/>
 <instance part="U3" gate="G$1" x="152.4" y="238.76"/>
 <instance part="U5" gate="XC6802A42XMR-G" x="363.22" y="254"/>
 <instance part="U2" gate="G1" x="543.56" y="243.84"/>
@@ -11798,32 +11798,18 @@ http://www.micrel.com&lt;p&gt;
 <pinref part="U5" gate="XC6802A42XMR-G" pin="VIN"/>
 </segment>
 <segment>
-<wire x1="528.32" y1="248.92" x2="533.4" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="243.84" x2="528.32" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="243.84" x2="528.32" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
-<junction x="528.32" y="248.92"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="518.16" y1="241.3" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
-<junction x="518.16" y="248.92"/>
-<pinref part="U$12" gate="G$1" pin="VUSB"/>
-<wire x1="518.16" y1="248.92" x2="518.16" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G1" pin="IN"/>
-<pinref part="U2" gate="G1" pin="EN"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="502.92" y1="246.38" x2="502.92" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="502.92" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D1" gate="1" pin="A"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="492.76" y1="243.84" x2="495.3" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="495.3" y1="243.84" x2="497.84" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="238.76" x2="495.3" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VUSB"/>
 <wire x1="495.3" y1="243.84" x2="495.3" y2="248.92" width="0.1524" layer="91"/>
 <junction x="495.3" y="243.84"/>
+</segment>
+<segment>
+<pinref part="D1" gate="1" pin="A"/>
+<pinref part="U$12" gate="G$1" pin="VUSB"/>
+<wire x1="518.16" y1="259.08" x2="518.16" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UCAP" class="0">
@@ -12780,9 +12766,21 @@ http://www.micrel.com&lt;p&gt;
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="482.6" y1="248.92" x2="482.6" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="248.92" x2="533.4" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="533.4" y1="243.84" x2="528.32" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="243.84" x2="528.32" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
+<junction x="528.32" y="248.92"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="518.16" y1="241.3" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
+<junction x="518.16" y="248.92"/>
+<pinref part="U2" gate="G1" pin="IN"/>
+<pinref part="U2" gate="G1" pin="EN"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="502.92" y1="246.38" x2="502.92" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="248.92" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="C"/>
-<wire x1="482.6" y1="243.84" x2="487.68" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="254" x2="518.16" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

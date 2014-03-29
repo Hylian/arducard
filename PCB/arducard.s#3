@@ -11647,6 +11647,11 @@ http://www.micrel.com&lt;p&gt;
 <label x="622.3" y="157.48" size="1.778" layer="95"/>
 <pinref part="J3" gate="G$1" pin="SCLK"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="SCLK"/>
+<wire x1="243.84" y1="243.84" x2="223.52" y2="243.84" width="0.1524" layer="91"/>
+<label x="223.52" y="243.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -12771,13 +12776,6 @@ http://www.micrel.com&lt;p&gt;
 <pinref part="Y2" gate="G$1" pin="P$1"/>
 <wire x1="279.4" y1="238.76" x2="284.48" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="238.76" x2="284.48" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCLK" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="SCLK"/>
-<wire x1="243.84" y1="243.84" x2="223.52" y2="243.84" width="0.1524" layer="91"/>
-<label x="223.52" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
