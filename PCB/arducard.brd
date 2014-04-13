@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.393700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2159,7 +2159,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.47" y1="24.89" x2="10.47" y2="24.34" width="0.254" layer="16"/>
 <wire x1="10.47" y1="24.34" x2="9.87" y2="23.74" width="0.254" layer="16"/>
 <wire x1="9.87" y1="23.74" x2="9.87" y2="16.74" width="0.254" layer="16"/>
-<wire x1="10.47" y1="24.89" x2="10.77" y2="25.19" width="0" layer="19" extent="1-1"/>
+<wire x1="10.77" y1="25.19" x2="10.47" y2="24.89" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="C16" pad="2"/>
