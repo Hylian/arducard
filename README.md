@@ -13,6 +13,7 @@ Features
 * LiR2016 Coin-cell Li-Ion battery
 * Battery charging over USB
 * 2.7" e-Paper display
+* 5 edge-mounted interrupt-triggered tactile buttons
 
 Dimensions
 ----------
