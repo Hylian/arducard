@@ -19,3 +19,12 @@ Dimensions
 ----------
 
 80 mm x 45 mm x 5 mm
+
+Applications
+------------
+
+* Google Auth Time-OTP 
+* Store barcodes for rewards cards, etc.
+* Store QR codes
+* USB text terminal for Raspberry Pi
+* ...
