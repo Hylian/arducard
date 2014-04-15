@@ -28,3 +28,8 @@ Applications
 * Store QR codes
 * USB text terminal for Raspberry Pi
 * ...
+
+Interested?
+-----------
+
+Tweet me at [@inwardshed](https://twitter.com/inwardshed) or e-mail at [edshin95@gmail.com](mailto:edshin95@gmail.com) if you're interested in assembling a PCB/contributing.
