@@ -1,0 +1,100 @@
+Partlist
+
+Exported from arducard.sch at 4/12/2014 8:20:19 PM
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value           Device             Package             Library                 Sheet
+
+B2       LIR2016         LIR2016            BK-5067             arducard-coincell       1
+C1       100n            C-EUC0603          C0603-ROUND         SmartPrj                1
+C2       100n            C-EUC0603          C0603-ROUND         SmartPrj                1
+C3       22p             C-EUC0603          C0603-ROUND         SmartPrj                1
+C4       22p             C-EUC0603          C0603-ROUND         SmartPrj                1
+C5       1uF             C-EUC0603          C0603-ROUND         SmartPrj                1
+C6       1uF             C-EUC0603          C0603-ROUND         SmartPrj                1
+C7       100nF           C-EUC0603          C0603-ROUND         SmartPrj                1
+C8       10u             C-EUC0603          C0603-ROUND         SmartPrj                1
+C9       100n            C-EUC0603          C0603-ROUND         SmartPrj                1
+C10      4.7 uF          C-EUC0603          C0603-ROUND         SmartPrj                1
+C11      10 uF           C-EUC0603          C0603-ROUND         SmartPrj                1
+C12      100pF           C-EUC0603          C0603-ROUND         SmartPrj                1
+C13      22 pF           C-EUC0603          C0603-ROUND         SmartPrj                1
+C14      1uF             C-EUC0603          C0603-ROUND         SmartPrj                1
+C15      2.2uF/10V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C16      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C17      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C18      2.2uF/25V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C19      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C20      2.2uF/25V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C21      2.2uF/25V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C22      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C23      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C24      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C25      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C26      1uF/10V         C-EUC0603          C0603-ROUND         SmartPrj                1
+C27      2.2uF/25V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C28      2.2uF/25V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C29      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C30      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C31      100nF           C-EUC0603          C0603-ROUND         SmartPrj                1
+C32      0.1uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+C33      2.2uF/16V       C-EUC0603          C0603-ROUND         SmartPrj                1
+D1       BAS40           BAS40              SOT23               diode                   1
+D2       BAT54S          BAT54S             SOT23               diode                   1
+ICSP     ICSP            PINHD-2X3          2X03                SmartPrj                1
+J1       USB MICRO B     MYCON2_USB-MINI-B  CON2_USB_MICRO_B_AT SmartPrj                1
+J3       051296-4094     051296-4094        051296-4094         arducard-fpc            1
+L2       2.2 uH          INDUCTOR30OHM,1.8A 0603                SparkFun-Passives       1
+Q1       BSS84           BSS84              SOT23               transistor-small-signal 1
+Q2       BC817-16LT1SMD  BC817-16LT1SMD     SOT23-BEC           transistor-npn          1
+Q3       DMG2301U-7      DMG2301U-7         SOT23               transistor-fet          1
+Q4       2N7002          2N7002             SOT-23              AWJLEagleLib            1
+Q5       BSS84           BSS84              SOT23               transistor-small-signal 1
+Q6       2N7002          2N7002             SOT-23              AWJLEagleLib            1
+Q7       2N7002          2N7002             SOT-23              AWJLEagleLib            1
+Q8       2N7002          2N7002             SOT-23              AWJLEagleLib            1
+Q9       BSS84           BSS84              SOT23               transistor-small-signal 1
+Q10      DMG2301U-7      DMG2301U-7         SOT23               transistor-fet          1
+R1       1M              R-EU_R0603         R0603-ROUND         SmartPrj                1
+R2       10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R3       22R             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R4       22R             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R5       2k              R-EU_R0603         R0603-ROUND         SmartPrj                1
+R6       100k            R-EU_R0603         R0603-ROUND         SmartPrj                1
+R7       39k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R8       10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R9       10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R10      10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R11      10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R12      10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R13      10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R14      150             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R15      150             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R16      150             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R17      150             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R18      150             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R19      10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R20      18.2k           R-EU_R0603         R0603-ROUND         SmartPrj                1
+R23      2k              R-EU_R0603         R0603-ROUND         SmartPrj                1
+R24      100k            R-EU_R0603         R0603-ROUND         SmartPrj                1
+R25      100k            R-EU_R0603         R0603-ROUND         SmartPrj                1
+R26      100k            R-EU_R0603         R0603-ROUND         SmartPrj                1
+R27      33k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+R28      10k             R-EU_R0603         R0603-ROUND         SmartPrj                1
+SW0      EVQ-PUA         EVQ-PUA            SMD-TACT-SWITCH     arducard-switch         1
+SW1      EVQ-PUA         EVQ-PUA            SMD-TACT-SWITCH     arducard-switch         1
+SW2      EVQ-PUA         EVQ-PUA            SMD-TACT-SWITCH     arducard-switch         1
+SW3      EVQ-PUA         EVQ-PUA            SMD-TACT-SWITCH     arducard-switch         1
+SW4      EVQ-PUA         EVQ-PUA            SMD-TACT-SWITCH     arducard-switch         1
+U1       ATMEGA32U4-XUAU ATMEGA32U4-XUAU    TQFP44-PAD          SmartPrj                1
+U2                       MIC5219XX          SOT23-5             v-reg-micrel            1
+U3       MB85RS128B-FRAM MB85RS128B-FRAM    SO-08               arducard-fram           1
+U4       DS1343          DS1343             TSSOP20             arducard-rtc            1
+U5       XC6802A42XMR-G  XC6802A42XMR-G     SOT23-5L            arducard-xc6802         1
+Y1       8MHz KX-7       CRYSTAL-3.2-2.5    CRYSTAL-3.2-2.5     SmartPrj                1
+Y2       32.768 kHz      SSP-T7-F           SSP-T7-F            arducard-rtc            1
+Z1       CG0603MLC-05E   VARISTORCN0603     CT/CN0603           varistor                1
+Z2       CG0603MLC-05E   VARISTORCN0603     CT/CN0603           varistor                1
