@@ -1093,7 +1093,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="Z1" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="74.638" y="17.53"/>
 <element name="Z2" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="74.561" y="10.56" rot="R180"/>
 <element name="C9" library="SmartPrj" package="C0603-ROUND" value="100n" x="69.35" y="7.773" rot="R90"/>
-<element name="J1" library="SmartPrj" package="CON2_USB_MICRO_B_AT" value="USB MICRO" x="80.733" y="14.143" smashed="yes" rot="R90"/>
+<element name="J1" library="SmartPrj" package="CON2_USB_MICRO_B_AT" value="USB MICRO B" x="80.733" y="14.143" smashed="yes" rot="R90"/>
 <element name="U1" library="SmartPrj" package="TQFP44-PAD" value="ATMEGA32U4-XUAU" x="59.68" y="14.103" rot="R180"/>
 <element name="C14" library="SmartPrj" package="C0603-ROUND" value="1uF" x="73.955" y="40.622"/>
 <element name="L2" library="SparkFun-Passives" package="0603" value="2.2 uH" x="70.543" y="25.248" rot="R180">

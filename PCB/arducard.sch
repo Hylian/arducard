@@ -8145,7 +8145,7 @@ http://www.micrel.com&lt;p&gt;
 <part name="U$23" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="C9" library="SmartPrj" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="SmartPrj" deviceset="MYCON2_USB-MINI-B" device="" value="USB MICRO"/>
+<part name="J1" library="SmartPrj" deviceset="MYCON2_USB-MINI-B" device="" value="USB MICRO B"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
